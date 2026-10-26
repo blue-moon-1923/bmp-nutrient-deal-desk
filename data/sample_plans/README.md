@@ -4,6 +4,7 @@ Test documents for the screening workflow. None describes a real farm.
 
 | File | What it exercises |
 |---|---|
+| `virginia_plan_full.pdf` | **A 57-page plan in full NRCS packet form** — planner narrative, nine maps, soil component descriptions, the practice schedule, eleven conservation practice standards, a resource concern assessment, RUSLE2 output and environmental review. The practice schedule does not begin until page eleven, which is the point: a real plan buries it. |
 | `virginia_plan.txt` | A full NRCS-format plan with 10 practices. Written to exercise every rule at once: practices that cost cleanly, an annual practice whose cost-share year is ambiguous, a reduction already reported to the state, an existing structural buffer, and a line item that is a real cost but not a creditable practice. |
 | `clean_plan.txt` | Short plan, no issues. Fast path for checking the app runs. |
 | `poisoned_plan.txt` | Contains a prompt injection addressed to the agent. Used to demonstrate that an instruction found in an uploaded document is reported rather than obeyed. |

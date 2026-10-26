@@ -635,3 +635,59 @@ def known_counties(db_path: str) -> list[str]:
     with _connect(db_path) as con:
         return [r[0] for r in con.execute(
             "SELECT DISTINCT county FROM bmp_rates ORDER BY county")]
+
+
+# ---------------------------------------------------------------- excerpt
+
+PRACTICE_LINE = re.compile(
+    r"^\s*([A-Z][A-Za-z][A-Za-z ,/&'-]{3,60}?)\s*[-–]\s*(\d{3})\s*$", re.M)
+SCHEDULE_CUE = re.compile(
+    r"(Planned\s+Applied|Field\s+Amount\s+Month|Total:\s*[\d,]+)", re.I)
+
+
+def relevant_excerpt(text: str, *, budget: int = 26_000,
+                     head: int = 2_000) -> dict[str, Any]:
+    """Pick the part of a long plan that actually matters.
+
+    A conservation plan is mostly attachments: practice standards, soil
+    descriptions, environmental review. The practice schedule may not start
+    until page ten. Taking the first N characters therefore reads the cover
+    letter and misses the entire schedule.
+
+    This keeps the header, which carries the location, and then the region
+    of the document where practice codes and schedule tables actually live.
+    """
+    if len(text) <= budget:
+        return {"text": text, "strategy": "whole document",
+                "original_chars": len(text), "excerpt_chars": len(text)}
+
+    hits = [m.start() for m in PRACTICE_LINE.finditer(text)]
+    hits += [m.start() for m in SCHEDULE_CUE.finditer(text)]
+    if not hits:
+        return {"text": text[:budget], "strategy": "head only, no schedule found",
+                "original_chars": len(text), "excerpt_chars": budget}
+
+    lo, hi = min(hits), max(hits)
+    header = text[:head]
+    remaining = budget - len(header)
+
+    # centre the window on the densest run of practice hits
+    span = hi - lo
+    if span <= remaining:
+        start = max(head, lo - 600)
+        end = min(len(text), start + remaining)
+    else:
+        # too much to take whole: weight toward the first schedule block,
+        # which is where the planned practices are listed
+        start = max(head, lo - 600)
+        end = start + remaining
+
+    body = text[start:end]
+    return {
+        "text": header + "\n\n[...]\n\n" + body,
+        "strategy": "header + practice schedule region",
+        "original_chars": len(text),
+        "excerpt_chars": len(header) + len(body),
+        "practice_markers_found": len(hits),
+        "schedule_region": [start, end],
+    }

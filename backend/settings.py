@@ -59,7 +59,12 @@ MAX_REQUESTS_SPECIALIST = 4      # tool calls one specialist may make per task
 MAX_REQUESTS_BOSS = 8            # tool calls the deal desk may make per screen
 MAX_DELEGATION_DEPTH = 2         # boss -> specialist -> specialist, no deeper
 MAX_DELEGATIONS_PER_SCREEN = 6   # total hand-offs for one screening
-MAX_TOKENS_PER_SCREEN = 120_000  # hard stop; refuses rather than overspends
+MAX_TOKENS_PER_SCREEN = 220_000  # hard stop; refuses rather than overspends
+
+# How much of a document an agent may be shown. A conservation plan runs to
+# tens of thousands of characters and the practice schedule can sit ten pages
+# in, so this has to be generous. The runner picks the relevant region first.
+MAX_DOCUMENT_CHARS = 30_000
 
 # ---------------------------------------------------------------- paths
 

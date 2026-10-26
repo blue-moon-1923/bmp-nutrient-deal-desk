@@ -69,6 +69,7 @@ async def screen_project(
     injection = None
     jurisdiction = None
     privacy = None
+    excerpt = None
     if plan_text:
         injection = TB.call_tool("scan_document_for_injection", {"text": plan_text})
         import plan_reader as _PR
@@ -81,6 +82,12 @@ async def screen_project(
         # county all survive; the person does not.
         privacy = _RD.redact(plan_text, keep_county=county)
         plan_text = privacy.pop("text")
+
+        # A plan is mostly attachments. The practice schedule can start ten
+        # pages in, so taking the first N characters reads the cover letter
+        # and misses the schedule entirely. Pick the region that matters.
+        excerpt = _PR.relevant_excerpt(plan_text)
+        plan_text = excerpt.pop("text")
 
     risk = TB.call_tool("run_risk_review", risk_answers or {})
 
@@ -102,7 +109,7 @@ async def screen_project(
             "every name. Flag anything already implemented under a "
             "cost-share programme.",
             meter,
-            {"county": county, "plan_text": plan_text[:8000],
+            {"county": county, "plan_text": plan_text,
              "injection_scan": injection},
         ))
 
@@ -128,7 +135,7 @@ async def screen_project(
             "Read this document for the farm's physical features, then work "
             "out which practices it could host. Say what you could not "
             "establish and what to ask.",
-            meter, {"county": county, "plan_text": plan_text[:8000]},
+            meter, {"county": county, "plan_text": plan_text},
         ))
 
     # ---- 2. alignment + opportunity can run together
@@ -207,6 +214,7 @@ async def screen_project(
         "injection_scan": injection,
         "jurisdiction": jurisdiction,
         "privacy": privacy,
+        "excerpt": excerpt if plan_text else None,
         "risk_review": risk,
         "hgmr": hgmr,
         "hgmr_source": hgmr_source,
