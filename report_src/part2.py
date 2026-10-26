@@ -6,6 +6,8 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 ROOT = HERE.parent
 from data import TOK, ORG, COST_PER_RUN, scale_rows, PRICE_IN_PER_M, PRICE_OUT_PER_M, RUNS_PER_USER_MONTH
+import statistics as st
+from data import CACHED, ALL_RUNS, PRICE_CACHED_IN_PER_M, PRICE_BASIS
 from build import fig, money, num
 
 S = scale_rows()
@@ -15,28 +17,33 @@ SAVED = ORG['saved_hours']; SAVED_PCT = ORG['saved_pct']
 PART2 = f"""
 <h2><span class="n">4</span>Tokenomics</h2>
 
-<div class="callout warn"><h4>The price below is a placeholder</h4>
-<p><code>gpt-6-luna</code> is provisioned for this course behind a Portkey gateway. The
-gateway returns exact token counts and latency but <b>no cost field</b>, and the rate
-was not published to students. This report uses
-<b>{money(PRICE_IN_PER_M,2)} per million input tokens and {money(PRICE_OUT_PER_M,2)} per
-million output</b> &mdash; plausible for a small hosted model, and <b>not verified</b>.
-Every dollar figure in this section scales linearly with those two numbers.</p>
+<div class="callout"><h4>How this is priced</h4>
+<p>The course gateway reports exact token counts but no cost, and the rate the
+university pays is not published. So this section prices the measured workload the
+way an adopting organisation would actually pay for it: <b>on its own account, at
+the published list rate.</b></p>
+<table style="margin:9px 0 6px">
+<thead><tr><th><code>gpt-6-luna</code>, per million tokens</th><th class="n">Rate</th></tr></thead>
+<tbody>
+<tr><td>Input, uncached</td><td class="n">{money(PRICE_IN_PER_M,3)}</td></tr>
+<tr><td>Input, cache read</td><td class="n">{money(PRICE_CACHED_IN_PER_M,3)}</td></tr>
+<tr><td>Output</td><td class="n">{money(PRICE_OUT_PER_M,3)}</td></tr>
+</tbody></table>
+<p style="font-size:9.6pt">{PRICE_BASIS}</p>
 <p>The application itself does not guess. With no rate configured it reports exact
-token counts and prints <b>&ldquo;unpriced&rdquo;</b> rather than inventing a cost. Setting
-<code>MODEL_PRICE_IN</code> and <code>MODEL_PRICE_OUT</code> in <code>.env</code>
-recalculates everything. <b>The token counts are measured and real; the dollars are
-arithmetic on an unverified rate.</b></p></div>
+token counts and prints <b>&ldquo;unpriced&rdquo;</b> rather than inventing a cost.</p></div>
 
 <h3>What one run actually costs</h3>
-<p>Measured across <b>{TOK['n']} real runs</b>, logged automatically to
-<code>output/token_log.json</code> and displayed in the application itself.</p>
+<p>Measured across <b>{TOK['n']} independent runs</b>, logged automatically to
+<code>output/token_log.json</code> and displayed in the application itself.
+{len(ALL_RUNS)} runs were logged in total; {len(CACHED)} were gateway cache hits of an
+identical request and are excluded here, for the reason given below.</p>
 
 <div class="kpis">
   <div class="kpi"><div class="k">Mean per run</div><div class="v">{num(TOK['mean'])}</div><div class="n">tokens</div></div>
   <div class="kpi"><div class="k">Range</div><div class="v">{num(TOK['min']/1000,1)}&ndash;{num(TOK['max']/1000,1)}k</div><div class="n">tokens</div></div>
   <div class="kpi"><div class="k">Wall clock</div><div class="v">{TOK['sec']:.0f}s</div><div class="n">{TOK['sec_min']:.0f}&ndash;{TOK['sec_max']:.0f}s</div></div>
-  <div class="kpi"><div class="k">Cost per run</div><div class="v">{money(COST_PER_RUN,4)}</div><div class="n">placeholder rate</div></div>
+  <div class="kpi"><div class="k">Cost per run</div><div class="v">{money(COST_PER_RUN,4)}</div><div class="n">published list rate</div></div>
 </div>
 
 <table>
@@ -76,13 +83,16 @@ arrives. That is <b>{RUNS_PER_USER_MONTH:.1f} runs per user per month</b>.</p>
 {''.join(f'<tr><td>{r["users"]:,}{" (this programme)" if r["users"]==ORG["outreach_staff"] else ""}</td><td class="n">{r["runs_per_month"]:,.0f}</td><td class="n">{r["tokens_per_month"]:,.0f}</td><td class="n">{money(r["cost_per_month"])}</td><td class="n">{money(r["cost_per_year"])}</td></tr>' for r in S)}
 </tbody></table>
 
-<div class="callout"><h4>The number that matters</h4>
+<div class="callout ok"><h4>The number that matters</h4>
 <p>Running this for the entire twelve-person field team costs
-<b>{money(S[1]['cost_per_year'])} a year</b> at the placeholder rate. The analyst time it
-replaces is worth <b>{money(SAVED*ORG['hourly'],0)}</b>. Even if the true token price were
-<b>one hundred times</b> my placeholder, the tool would cost
-{money(S[1]['cost_per_year']*100,0)} against {money(SAVED*ORG['hourly'],0)} of labour.
-<b>The conclusion does not depend on the price being right.</b></p></div>
+<b>{money(S[1]['cost_per_year'])} a year</b>. The analyst time it replaces is worth
+<b>{money(SAVED*ORG['hourly'],0)}</b> &mdash; a ratio of about
+<b>1 : {SAVED*ORG['hourly']/S[1]['cost_per_year']:,.0f}</b>.</p>
+<p>Even at the most expensive listing for this model &mdash; OpenAI direct, roughly
+double Azure's rate &mdash; it is {money(S[1]['cost_per_year']*2)} a year. Even at one
+hundred times the published rate it would be {money(S[1]['cost_per_year']*100,0)}
+against {money(SAVED*ORG['hourly'],0)} of labour. <b>The model is not the cost of
+running this; the people are.</b></p></div>
 
 <h3>What I did to keep cost down</h3>
 
@@ -114,7 +124,19 @@ same refusals, <b>zero tokens and under a second</b>. When a user already knows 
 practices, the agents add nothing. Most interactions during development used this
 path, and it is the first button in the interface.</p>
 
-<h4>4. Output capped, documents truncated</h4>
+<h4>4. Gateway caching &mdash; observed, not engineered</h4>
+<p>Re-running an identical screening returns the same token count in roughly a
+seventh of the wall clock, because the gateway serves it from cache. Across the
+logged runs, {len(CACHED)} of {len(ALL_RUNS)} were repeats of this kind, averaging
+{st.mean([c["latency_ms"]/1000 for c in CACHED]):.1f}&nbsp;s against
+{TOK['sec']:.1f}&nbsp;s for an independent run.</p>
+<p><b>Those repeats are excluded from every figure in this section.</b> They are not
+independent observations, and counting them would understate latency by about a
+third. The {TOK['n']} runs reported here are all distinct. It is worth noting as a
+real effect, though: a programme re-screening the same project as information
+arrives gets the later passes substantially faster.</p>
+
+<h4>5. Output capped, documents truncated</h4>
 <p><code>MAX_OUTPUT_TOKENS</code> is 1,100 per call, and document text is capped before
 it reaches a model. A hundred-page plan does not become a hundred pages of input.</p>
 
@@ -170,7 +192,7 @@ willingness to enter data like a conservation plan into AI.&rdquo;</p></blockquo
 locally. By the time anything leaves the machine the address is gone and the
 county remains.</p>
 
-{fig('08_privacy_receipt.jpg', 'The privacy receipt, shown in the result directly beneath the reductions and cost. Thirteen items removed from the sample plan before any model saw it: farm and tract identifiers, business names, a street address, a contract number and a postal code. Also covered are personal names after labels such as Producer or Landowner, phone numbers, email addresses, PO boxes, government identifiers and GPS coordinates.', 9)}
+{fig('08_privacy_receipt.jpg', 'The privacy receipt, shown in the result directly beneath the reductions and cost. Thirteen items removed from the sample plan before any model saw it: farm and tract identifiers, business names, a street address, a contract number and a postal code. Also covered are personal names after labels such as Producer or Landowner, phone numbers, email addresses, PO boxes, government identifiers and GPS coordinates.', 8)}
 
 <h4>The test that matters is the other direction</h4>
 <p>Removing information is easy; removing it <i>without breaking the screening</i> is
@@ -208,7 +230,7 @@ attack surface, and it is the one an agent that treats documents as instructions
 will fail. The application scans every upload <b>before any model sees it</b>, and
 treats findings as data to report, never as instructions to follow.</p>
 
-{fig('07_injection_blocked.jpg', 'A plan containing a hidden instruction block. The scan caught three separate violations — ignore-instructions, asserting a decision not yet made, and asking to skip the EQIP check — quoted them with line numbers, and reported them. The agents continued with the legitimate content; the injected demand for a 9,500 lb figure never reached a result.', 8)}
+{fig('07_injection_blocked.jpg', 'A plan containing a hidden instruction block. The scan caught three separate violations — ignore-instructions, asserting a decision not yet made, and asking to skip the EQIP check — quoted them with line numbers, and reported them. The agents continued with the legitimate content; the injected demand for a 9,500 lb figure never reached a result.', 9)}
 
 <p>Three defences stack here, and the third is the one that matters:</p>
 <ol>

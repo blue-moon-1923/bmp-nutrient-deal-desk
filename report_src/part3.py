@@ -95,7 +95,7 @@ measurement.</b></p></div>
 <table>
 <thead><tr><th>Item</th><th class="n">Per year</th><th>Basis</th></tr></thead>
 <tbody>
-<tr><td>Running the application, 12 field staff</td><td class="n">{money(S[1]['cost_per_year'])}</td><td>measured tokens, <b>placeholder</b> price</td></tr>
+<tr><td>Running the application, 12 field staff</td><td class="n">{money(S[1]['cost_per_year'])}</td><td>measured tokens, published list rate on Azure</td></tr>
 <tr><td>Analyst time returned</td><td class="n">{money(SAVED*ORG['hourly'],0)}</td><td>{num(SAVED)} h at {money(ORG['hourly'])}</td></tr>
 <tr><td>Dead-end screening addressed (65%)</td><td class="n">{money(0.65*ORG['dead_end_hours']*ORG['hourly'],0)}</td><td>derived from the stated split</td></tr>
 <tr><td>Additional deal value</td><td class="n">{money(400000,0)}</td><td><b>practitioner projection</b></td></tr>
@@ -167,7 +167,7 @@ directly rather than leaving it to the agent.</li>
 <tr><td>4 hours, 250 scoped, 50 converted, 12 outreach staff, 10-day turnaround, non-conversion split, $75k average salary</td><td><b>Practitioner account</b> &mdash; the author, who performed the work.</td></tr>
 <tr><td>5 conversations to 2; the three barriers; 10% Amish exclusion; $400k projection</td><td><b>User interview</b> &mdash; Director, Revolving Water Fund.</td></tr>
 <tr><td>Competing products</td><td>CAST; Nutrient Tracking Tool (Tarleton State / USDA-NRCS); ACPF FNRT (Bravard et al., <i>J. Environ. Qual.</i> 2022); Truterra; Field to Market; ESMC; Regrow; Virginia DEQ and SWaN.</td></tr>
-<tr><td>Token price</td><td><b>PLACEHOLDER, unverified.</b> See the note opening section 4.</td></tr>
+<tr><td>Token price</td><td>Published list rate for <code>gpt-6-luna</code> on Azure: $0.110 input, $0.011 cache read, $0.550 output per million tokens. The application runs through a Portkey gateway onto azure-openai. Priced as an adopting organisation would pay on its own account; the rate the university pays is not published.</td></tr>
 </tbody></table>
 
 <p class="fn">Built for MGT 409, AI Foundations for Managers, Yale School of

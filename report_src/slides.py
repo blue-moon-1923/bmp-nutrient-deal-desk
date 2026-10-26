@@ -227,12 +227,12 @@ HTML = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <!-- 7 -->
 <section>
  <p class="eyebrow">Cost to run</p>
- <h2>The conclusion does not depend<br>on the price being right</h2>
+ <h2>Two dollars and sixty-seven cents a year</h2>
  <div class="grid g4" style="margin:24px 0">
   <div class="box"><div class="k">Mean / run</div><div class="v">{num(TOK['mean'])}</div><div class="n">tokens, {TOK['n']} real runs</div></div>
   <div class="box"><div class="k">Input share</div><div class="v">{(TOK['input']+TOK['cached'])/TOK['mean']:.0%}</div><div class="n">documents are input-heavy</div></div>
   <div class="box"><div class="k">Wall clock</div><div class="v">{TOK['sec']:.0f}s</div><div class="n">{TOK['sec_min']:.0f}&ndash;{TOK['sec_max']:.0f}s</div></div>
-  <div class="box hi"><div class="k">12 staff / year</div><div class="v">{money(S[1]['cost_per_year'])}</div><div class="n">at my price</div></div>
+  <div class="box hi"><div class="k">12 staff / year</div><div class="v">{money(S[1]['cost_per_year'])}</div><div class="n">published list rate</div></div>
  </div>
  <div class="grid g2">
   <div>
@@ -242,15 +242,18 @@ HTML = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
     <tr><td>100</td><td class="n">{S[2]['runs_per_month']:,.0f}</td><td class="n">{money(S[2]['cost_per_year'])}</td></tr>
     <tr><td>10,000</td><td class="n">{S[3]['runs_per_month']:,.0f}</td><td class="n">{money(S[3]['cost_per_year'])}</td></tr>
    </table>
-   <p class="cap">Cost controls: tool scoping (18 schemas &rarr; 3 per agent), reasoning off,
-   a zero-token calculator path, capped output.</p>
+   <p class="cap">Priced at <code>gpt-6-luna</code>'s published list rate on Azure:
+   $0.110 / $0.011 cached / $0.550 per million tokens. Cost controls: tool scoping
+   (19 schemas &rarr; 3 per agent), reasoning off, a zero-token calculator path,
+   capped output.</p>
   </div>
   <div class="box ok">
    <p style="font-size:.6em;line-height:1.5;margin:0">Running it for the whole field team costs
    <b>{money(S[1]['cost_per_year'])}</b> against <b>{money(SAVED*ORG['hourly'],0)}</b> of analyst time.</p>
    <p style="font-size:.6em;line-height:1.5;margin:12px 0 0"><b class="amber">Even at one hundred
-   times my price</b>, that is {money(S[1]['cost_per_year']*100,0)} against
-   {money(SAVED*ORG['hourly'],0)}.</p>
+   times the published rate</b>, that is {money(S[1]['cost_per_year']*100,0)} against
+   {money(SAVED*ORG['hourly'],0)}. The model is not the cost of running this &mdash;
+   the people are.</p>
   </div>
  </div>
 </section>

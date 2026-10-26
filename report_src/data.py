@@ -6,24 +6,51 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output"
 
-# ---- PLACEHOLDER PRICE -------------------------------------------------
-# gpt-6-luna is a course-provisioned model behind a Portkey gateway. The
-# gateway returns token counts and latency but no cost field, and the rate
-# was not published to students. The figures below are a PLACEHOLDER in the
-# range of comparable small hosted models. Every cost in this report scales
-# linearly with them.
-PRICE_IN_PER_M = 0.15
-PRICE_OUT_PER_M = 0.60
-PRICE_IS_PLACEHOLDER = True
+# ---- PRICE -------------------------------------------------------------
+# The course gateway reports token counts but no cost, and the rate the
+# university pays is not published. So this report prices the measured
+# workload the way an adopting organisation would actually pay for it: at
+# the PUBLISHED LIST RATE on its own account.
+#
+# gpt-6-luna on Azure, per million tokens. The application runs through a
+# Portkey gateway onto azure-openai, so these are the applicable rates.
+PRICE_IN_PER_M = 0.110          # uncached input
+PRICE_CACHED_IN_PER_M = 0.011   # cache read
+PRICE_CACHE_WRITE_PER_M = 0.138 # cache write
+PRICE_OUT_PER_M = 0.550         # output
+PRICE_PROVIDER = "Azure"
+PRICE_BASIS = ("Published list rate for gpt-6-luna on Azure. The application "
+               "runs through a Portkey gateway onto azure-openai. Other "
+               "providers list the same model at $0.100/$0.500 (OpenRouter) "
+               "and $0.200/$1.000 (OpenAI direct).")
+PRICE_IS_PLACEHOLDER = False
 # ------------------------------------------------------------------------
 
 def runs() -> list[dict]:
+    """Logged runs, with gateway cache hits removed.
+
+    Re-running an identical request returns the same token count in a
+    fraction of the wall clock, because the gateway serves it from cache.
+    Those are not independent observations: counting them would understate
+    latency. The first occurrence of each distinct token count is kept, and
+    the repeats are reported separately.
+    """
     p = OUT / "token_log.json"
     if not p.is_file():
         return []
-    return [r for r in json.loads(p.read_text()) if r.get("total_tokens")]
+    all_runs = [r for r in json.loads(p.read_text()) if r.get("total_tokens")]
+    seen, cold, cached = set(), [], []
+    for r in all_runs:
+        key = r["total_tokens"]
+        (cached if key in seen else cold).append(r)
+        seen.add(key)
+    runs.cached = cached
+    runs.all = all_runs
+    return cold
 
 R = runs()
+CACHED = getattr(runs, "cached", [])
+ALL_RUNS = getattr(runs, "all", R)
 WITH = [r for r in R if r.get("plan_supplied")]
 WITHOUT = [r for r in R if not r.get("plan_supplied")]
 
@@ -46,9 +73,10 @@ TOK = {
 }
 
 def cost_of(inp: float, cached: float, out: float) -> float:
-    # cached input is billed at the input rate here; the gateway reports no
-    # separate cached rate, so this is the conservative assumption.
-    return ((inp + cached) * PRICE_IN_PER_M + out * PRICE_OUT_PER_M) / 1_000_000
+    """Cost of one run at the published rate, pricing cache reads correctly."""
+    return (inp * PRICE_IN_PER_M
+            + cached * PRICE_CACHED_IN_PER_M
+            + out * PRICE_OUT_PER_M) / 1_000_000
 
 COST_PER_RUN = cost_of(TOK["input"], TOK["cached"], TOK["output"])
 
