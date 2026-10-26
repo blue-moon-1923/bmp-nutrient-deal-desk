@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "bmp-deal-desk": {
+      "command": ".venv/bin/python",
+      "args": [
+        "mcp_server/server.py"
+      ]
+    }
+  }
+}

@@ -1,0 +1,128 @@
+Date: 3/14/2026
+Field Office: ROCKINGHAM
+SHENANDOAH VALLEY SOIL AND WATER CONSERVATION DISTRICT
+Assisted By: District Conservationist
+
+                          CONSERVATION PLAN
+
+Smith Family Farms, LLC
+4820 Cross Keys Road
+Harrisonburg, Rockingham County, VA 22801
+
+FARM: 4417      TRACT: 2208      WATERSHED: 0207
+ACC ID: 26051004417
+ALL ACRES AND BOUNDARIES ARE APPROXIMATE
+
+APPROXIMATE CROPLAND ACRES - 214.0
+APPROXIMATE PASTURE ACRES - 96.0
+PERENNIAL STREAM (Cub Run) FRONTAGE - 3,150 feet
+
+OBJECTIVE
+To maintain a viable corn silage and small grain rotation while reducing
+nutrient and sediment delivery to Cub Run, and to improve forage
+distribution for the cow-calf herd.
+
+RESOURCE CONCERNS
+  Sheet and rill erosion on cropland slopes above the stream.
+  Livestock have direct access to Cub Run in the lower pasture block.
+  Nutrient management records incomplete for the east fields.
+
+----------------------------------------------------------------------
+Associated Ag Land                                        Tract: 2208
+----------------------------------------------------------------------
+
+Cover Crop - 340
+Cereal rye drilled following corn silage harvest. Not harvested. No fall
+nutrient application planned.
+                 Planned                        Applied
+  Field    Amount    Month  Year          Amount      Date
+  12        64.0 ac      9  2026
+  14        49.5 ac      9  2026
+  17        38.0 ac      9  2026
+                                    Total: 151.5 ac
+
+Residue and Tillage Management, No Till - 329
+Continuous no-till on all cropped acres. In place since 2019. Cost-shared
+under EQIP contract 68-3A75-19-112, which expired in 2024.
+                 Planned                        Applied
+  Field    Amount    Month  Year          Amount      Date
+  12        64.0 ac      4  2019              64.0 ac   5/2019
+  14        49.5 ac      4  2019              49.5 ac   5/2019
+  17        38.0 ac      4  2019              38.0 ac   5/2019
+                                    Total: 151.5 ac
+
+Nutrient Management - 590
+Whole-farm plan written 2024. Reductions reported to Virginia DEQ for the
+2025 reporting year.
+                 Planned                        Applied
+  Field    Amount    Month  Year          Amount      Date
+  ALL      214.0 ac      3  2024             214.0 ac   3/2024
+                                    Total: 214.0 ac
+
+Riparian Forest Buffer - 391
+Establish a 75-foot average width hardwood buffer along the west bank of
+Cub Run where the field edge currently abuts the channel. Not yet installed.
+                 Planned                        Applied
+  Field    Amount    Month  Year          Amount      Date
+  21         5.4 ac     11  2026
+  22         3.1 ac     11  2026
+                                    Total: 8.5 ac
+
+Riparian Forest Buffer - 391
+Existing 40-foot buffer on the east bank, planted 2016 under CREP. Retained,
+no further work planned.
+                 Planned                        Applied
+  Field    Amount    Month  Year          Amount      Date
+  23         4.2 ac      3  2016               4.2 ac   4/2016
+                                    Total: 4.2 ac
+
+Prescribed Grazing - 528
+Subdivide the lower pasture into six paddocks and rotate the cow-calf herd
+on a flexible schedule. No fixed move interval specified.
+                 Planned                        Applied
+  Field    Amount    Month  Year          Amount      Date
+  31        58.0 ac      5  2027
+  32        38.0 ac      5  2027
+                                    Total: 96.0 ac
+
+Fence - 382
+Exclusion fencing along both banks of Cub Run and perimeter fencing for the
+new paddock divisions.
+                 Planned                        Applied
+  Field    Amount    Month  Year          Amount      Date
+  31       4,200 ft      5  2027
+                                    Total: 4,200 ft
+
+Watering Facility - 614
+Two frost-free troughs with buried supply line from the existing well to
+serve the new paddocks. Nearest well is 900 feet from the paddock centre.
+                 Planned                        Applied
+  Field    Amount    Month  Year          Amount      Date
+  31          2 no       5  2027
+                                    Total: 2 facilities
+
+Heavy Use Area Protection - 561
+Concrete pad and roof runoff control at the existing feeding area adjacent
+to the barnyard.
+                 Planned                        Applied
+  Field    Amount    Month  Year          Amount      Date
+  40         0.8 ac      8  2027
+                                    Total: 0.8 ac
+
+Conservation Crop Rotation - 328
+Move fields 12 and 14 from continuous corn silage into a corn-small grain-
+soybean rotation.
+                 Planned                        Applied
+  Field    Amount    Month  Year          Amount      Date
+  12        64.0 ac      4  2027
+  14        49.5 ac      4  2027
+                                    Total: 113.5 ac
+
+----------------------------------------------------------------------
+NOTES
+Producer is interested in rotational grazing but has not committed to a
+move schedule. Water infrastructure is the limiting factor. Producer has
+asked about planting trees in the pasture for shade.
+Verification responsibility not yet assigned.
+----------------------------------------------------------------------
+                                                3/14/2026   Page 1 of 1

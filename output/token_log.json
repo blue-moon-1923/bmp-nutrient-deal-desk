@@ -1,0 +1,1249 @@
+[
+  {
+    "run_id": "run_85d24a9492",
+    "at": "2026-10-25T18:11:52.204492+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": false,
+    "practice_count": 3,
+    "model_calls": 11,
+    "tool_calls": 15,
+    "input_tokens": 15368,
+    "cached_input_tokens": 3447,
+    "output_tokens": 2609,
+    "total_tokens": 21424,
+    "cost_usd": null,
+    "latency_ms": 30976,
+    "halted_reason": null,
+    "by_agent": {
+      "opportunity": {
+        "calls": 2,
+        "input_tokens": 2495,
+        "cached_input_tokens": 0,
+        "output_tokens": 269,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 2764,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 2,
+        "input_tokens": 2952,
+        "cached_input_tokens": 0,
+        "output_tokens": 378,
+        "reasoning_tokens": 0,
+        "tool_calls": 6,
+        "total_tokens": 3330,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 1998,
+        "cached_input_tokens": 1198,
+        "output_tokens": 518,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 3714,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 2507,
+        "cached_input_tokens": 0,
+        "output_tokens": 399,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 2906,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 2109,
+        "cached_input_tokens": 0,
+        "output_tokens": 678,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2787,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 2,
+        "input_tokens": 3307,
+        "cached_input_tokens": 2249,
+        "output_tokens": 367,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 5923,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_1526baf0f2",
+    "at": "2026-10-25T18:35:18.343141+00:00",
+    "county": "York",
+    "model": "gpt-6-luna",
+    "plan_supplied": false,
+    "practice_count": 2,
+    "model_calls": 11,
+    "tool_calls": 13,
+    "input_tokens": 14631,
+    "cached_input_tokens": 3364,
+    "output_tokens": 2425,
+    "total_tokens": 20420,
+    "cost_usd": null,
+    "latency_ms": 37969,
+    "halted_reason": null,
+    "by_agent": {
+      "opportunity": {
+        "calls": 2,
+        "input_tokens": 2340,
+        "cached_input_tokens": 0,
+        "output_tokens": 307,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 2647,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 2,
+        "input_tokens": 2856,
+        "cached_input_tokens": 0,
+        "output_tokens": 381,
+        "reasoning_tokens": 0,
+        "tool_calls": 5,
+        "total_tokens": 3237,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 1819,
+        "cached_input_tokens": 1191,
+        "output_tokens": 449,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 3459,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 2430,
+        "cached_input_tokens": 0,
+        "output_tokens": 385,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 2815,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 2033,
+        "cached_input_tokens": 0,
+        "output_tokens": 537,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2570,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 2,
+        "input_tokens": 3153,
+        "cached_input_tokens": 2173,
+        "output_tokens": 366,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 5692,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_f85e894c1e",
+    "at": "2026-10-26T00:11:52.291681+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": true,
+    "practice_count": 0,
+    "model_calls": 24,
+    "tool_calls": 25,
+    "input_tokens": 25737,
+    "cached_input_tokens": 38032,
+    "output_tokens": 3887,
+    "total_tokens": 67656,
+    "cost_usd": null,
+    "latency_ms": 44206,
+    "halted_reason": null,
+    "by_agent": {
+      "plan_reader": {
+        "calls": 4,
+        "input_tokens": 5313,
+        "cached_input_tokens": 12366,
+        "output_tokens": 1565,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 19244,
+        "cost_usd": null
+      },
+      "eligibility": {
+        "calls": 4,
+        "input_tokens": 5894,
+        "cached_input_tokens": 11769,
+        "output_tokens": 173,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 17836,
+        "cost_usd": null
+      },
+      "opportunity": {
+        "calls": 3,
+        "input_tokens": 3323,
+        "cached_input_tokens": 1808,
+        "output_tokens": 341,
+        "reasoning_tokens": 0,
+        "tool_calls": 2,
+        "total_tokens": 5472,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 4,
+        "input_tokens": 3082,
+        "cached_input_tokens": 3872,
+        "output_tokens": 361,
+        "reasoning_tokens": 0,
+        "tool_calls": 7,
+        "total_tokens": 7315,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 1174,
+        "cached_input_tokens": 1100,
+        "output_tokens": 79,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 2353,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 2257,
+        "cached_input_tokens": 0,
+        "output_tokens": 398,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 2655,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 1873,
+        "cached_input_tokens": 0,
+        "output_tokens": 546,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2419,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 4,
+        "input_tokens": 2821,
+        "cached_input_tokens": 7117,
+        "output_tokens": 424,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 10362,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_7d74f47a19",
+    "at": "2026-10-26T00:17:56.189882+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": true,
+    "practice_count": 0,
+    "model_calls": 24,
+    "tool_calls": 25,
+    "input_tokens": 26177,
+    "cached_input_tokens": 38145,
+    "output_tokens": 3783,
+    "total_tokens": 68105,
+    "cost_usd": null,
+    "latency_ms": 26950,
+    "halted_reason": null,
+    "by_agent": {
+      "plan_reader": {
+        "calls": 4,
+        "input_tokens": 5597,
+        "cached_input_tokens": 12604,
+        "output_tokens": 1569,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 19770,
+        "cost_usd": null
+      },
+      "eligibility": {
+        "calls": 4,
+        "input_tokens": 5894,
+        "cached_input_tokens": 11769,
+        "output_tokens": 173,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 17836,
+        "cost_usd": null
+      },
+      "opportunity": {
+        "calls": 3,
+        "input_tokens": 3323,
+        "cached_input_tokens": 1808,
+        "output_tokens": 341,
+        "reasoning_tokens": 0,
+        "tool_calls": 2,
+        "total_tokens": 5472,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 4,
+        "input_tokens": 3082,
+        "cached_input_tokens": 3872,
+        "output_tokens": 361,
+        "reasoning_tokens": 0,
+        "tool_calls": 7,
+        "total_tokens": 7315,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 1174,
+        "cached_input_tokens": 1100,
+        "output_tokens": 79,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 2353,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 2257,
+        "cached_input_tokens": 0,
+        "output_tokens": 398,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 2655,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 1754,
+        "cached_input_tokens": 0,
+        "output_tokens": 565,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2319,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 4,
+        "input_tokens": 3096,
+        "cached_input_tokens": 6992,
+        "output_tokens": 297,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 10385,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_4d140556bf",
+    "at": "2026-10-26T00:59:38.464090+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": true,
+    "practice_count": 0,
+    "model_calls": 24,
+    "tool_calls": 25,
+    "input_tokens": 27461,
+    "cached_input_tokens": 40091,
+    "output_tokens": 3619,
+    "total_tokens": 71171,
+    "cost_usd": null,
+    "latency_ms": 20513,
+    "halted_reason": null,
+    "by_agent": {
+      "plan_reader": {
+        "calls": 4,
+        "input_tokens": 5611,
+        "cached_input_tokens": 13153,
+        "output_tokens": 1468,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 20232,
+        "cost_usd": null
+      },
+      "eligibility": {
+        "calls": 4,
+        "input_tokens": 7164,
+        "cached_input_tokens": 13166,
+        "output_tokens": 110,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 20440,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 4,
+        "input_tokens": 3082,
+        "cached_input_tokens": 3872,
+        "output_tokens": 361,
+        "reasoning_tokens": 0,
+        "tool_calls": 7,
+        "total_tokens": 7315,
+        "cost_usd": null
+      },
+      "opportunity": {
+        "calls": 3,
+        "input_tokens": 3323,
+        "cached_input_tokens": 1808,
+        "output_tokens": 341,
+        "reasoning_tokens": 0,
+        "tool_calls": 2,
+        "total_tokens": 5472,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 1174,
+        "cached_input_tokens": 1100,
+        "output_tokens": 79,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 2353,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 2257,
+        "cached_input_tokens": 0,
+        "output_tokens": 398,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 2655,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 1754,
+        "cached_input_tokens": 0,
+        "output_tokens": 565,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2319,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 4,
+        "input_tokens": 3096,
+        "cached_input_tokens": 6992,
+        "output_tokens": 297,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 10385,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_3de77726f7",
+    "at": "2026-10-26T01:29:57.681844+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": true,
+    "practice_count": 6,
+    "model_calls": 19,
+    "tool_calls": 56,
+    "input_tokens": 35393,
+    "cached_input_tokens": 30170,
+    "output_tokens": 6009,
+    "total_tokens": 71572,
+    "cost_usd": null,
+    "latency_ms": 52785,
+    "halted_reason": null,
+    "by_agent": {
+      "plan_reader": {
+        "calls": 4,
+        "input_tokens": 5862,
+        "cached_input_tokens": 12948,
+        "output_tokens": 2266,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 21076,
+        "cost_usd": null
+      },
+      "eligibility": {
+        "calls": 4,
+        "input_tokens": 13578,
+        "cached_input_tokens": 12464,
+        "output_tokens": 701,
+        "reasoning_tokens": 0,
+        "tool_calls": 31,
+        "total_tokens": 26743,
+        "cost_usd": null
+      },
+      "opportunity": {
+        "calls": 2,
+        "input_tokens": 2731,
+        "cached_input_tokens": 0,
+        "output_tokens": 389,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 3120,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 2,
+        "input_tokens": 3377,
+        "cached_input_tokens": 0,
+        "output_tokens": 472,
+        "reasoning_tokens": 0,
+        "tool_calls": 9,
+        "total_tokens": 3849,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 2568,
+        "cached_input_tokens": 1339,
+        "output_tokens": 570,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 4477,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 1848,
+        "cached_input_tokens": 1134,
+        "output_tokens": 551,
+        "reasoning_tokens": 0,
+        "tool_calls": 7,
+        "total_tokens": 3533,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 2145,
+        "cached_input_tokens": 0,
+        "output_tokens": 674,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2819,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 2,
+        "input_tokens": 3284,
+        "cached_input_tokens": 2285,
+        "output_tokens": 386,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 5955,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_658fef68a0",
+    "at": "2026-10-26T01:43:42.326774+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": true,
+    "practice_count": 6,
+    "model_calls": 19,
+    "tool_calls": 29,
+    "input_tokens": 28787,
+    "cached_input_tokens": 30139,
+    "output_tokens": 5416,
+    "total_tokens": 64342,
+    "cost_usd": null,
+    "latency_ms": 13858,
+    "halted_reason": null,
+    "by_agent": {
+      "plan_reader": {
+        "calls": 4,
+        "input_tokens": 5862,
+        "cached_input_tokens": 12948,
+        "output_tokens": 2266,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 21076,
+        "cost_usd": null
+      },
+      "eligibility": {
+        "calls": 4,
+        "input_tokens": 6913,
+        "cached_input_tokens": 12434,
+        "output_tokens": 140,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 19487,
+        "cost_usd": null
+      },
+      "opportunity": {
+        "calls": 2,
+        "input_tokens": 2731,
+        "cached_input_tokens": 0,
+        "output_tokens": 389,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 3120,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 2,
+        "input_tokens": 3377,
+        "cached_input_tokens": 0,
+        "output_tokens": 472,
+        "reasoning_tokens": 0,
+        "tool_calls": 9,
+        "total_tokens": 3849,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 2568,
+        "cached_input_tokens": 1339,
+        "output_tokens": 570,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 4477,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 1848,
+        "cached_input_tokens": 1134,
+        "output_tokens": 551,
+        "reasoning_tokens": 0,
+        "tool_calls": 7,
+        "total_tokens": 3533,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 2145,
+        "cached_input_tokens": 0,
+        "output_tokens": 674,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2819,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 2,
+        "input_tokens": 3343,
+        "cached_input_tokens": 2284,
+        "output_tokens": 354,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 5981,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_172a7d1d60",
+    "at": "2026-10-26T02:33:33.577909+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": true,
+    "practice_count": 7,
+    "model_calls": 19,
+    "tool_calls": 31,
+    "input_tokens": 29441,
+    "cached_input_tokens": 32066,
+    "output_tokens": 5655,
+    "total_tokens": 67162,
+    "cost_usd": null,
+    "latency_ms": 62701,
+    "halted_reason": null,
+    "by_agent": {
+      "plan_reader": {
+        "calls": 4,
+        "input_tokens": 7230,
+        "cached_input_tokens": 12427,
+        "output_tokens": 2431,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 22088,
+        "cost_usd": null
+      },
+      "eligibility": {
+        "calls": 4,
+        "input_tokens": 6544,
+        "cached_input_tokens": 11413,
+        "output_tokens": 143,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 18100,
+        "cost_usd": null
+      },
+      "opportunity": {
+        "calls": 2,
+        "input_tokens": 2298,
+        "cached_input_tokens": 1488,
+        "output_tokens": 349,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 4135,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 2,
+        "input_tokens": 2939,
+        "cached_input_tokens": 1513,
+        "output_tokens": 510,
+        "reasoning_tokens": 0,
+        "tool_calls": 10,
+        "total_tokens": 4962,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 3229,
+        "cached_input_tokens": 1859,
+        "output_tokens": 634,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 5722,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 1958,
+        "cached_input_tokens": 1173,
+        "output_tokens": 637,
+        "reasoning_tokens": 0,
+        "tool_calls": 8,
+        "total_tokens": 3768,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 2054,
+        "cached_input_tokens": 0,
+        "output_tokens": 557,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2611,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 2,
+        "input_tokens": 3189,
+        "cached_input_tokens": 2193,
+        "output_tokens": 394,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 5776,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_9378d4245d",
+    "at": "2026-10-26T02:36:58.503114+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": true,
+    "practice_count": 1,
+    "model_calls": 18,
+    "tool_calls": 15,
+    "input_tokens": 18234,
+    "cached_input_tokens": 18044,
+    "output_tokens": 3362,
+    "total_tokens": 39640,
+    "cost_usd": null,
+    "latency_ms": 40374,
+    "halted_reason": null,
+    "by_agent": {
+      "plan_reader": {
+        "calls": 4,
+        "input_tokens": 1771,
+        "cached_input_tokens": 8471,
+        "output_tokens": 549,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 10791,
+        "cost_usd": null
+      },
+      "eligibility": {
+        "calls": 3,
+        "input_tokens": 3988,
+        "cached_input_tokens": 3927,
+        "output_tokens": 729,
+        "reasoning_tokens": 0,
+        "tool_calls": 2,
+        "total_tokens": 8644,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 2,
+        "input_tokens": 1503,
+        "cached_input_tokens": 1091,
+        "output_tokens": 273,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 2867,
+        "cost_usd": null
+      },
+      "opportunity": {
+        "calls": 2,
+        "input_tokens": 1776,
+        "cached_input_tokens": 1066,
+        "output_tokens": 373,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 3215,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 1739,
+        "cached_input_tokens": 1324,
+        "output_tokens": 280,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 3343,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 2147,
+        "cached_input_tokens": 0,
+        "output_tokens": 272,
+        "reasoning_tokens": 0,
+        "tool_calls": 2,
+        "total_tokens": 2419,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 2026,
+        "cached_input_tokens": 0,
+        "output_tokens": 576,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2602,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 2,
+        "input_tokens": 3284,
+        "cached_input_tokens": 2165,
+        "output_tokens": 310,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 5759,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_55c06f5046",
+    "at": "2026-10-26T03:21:25.993782+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": true,
+    "practice_count": 7,
+    "model_calls": 19,
+    "tool_calls": 31,
+    "input_tokens": 29441,
+    "cached_input_tokens": 32066,
+    "output_tokens": 5655,
+    "total_tokens": 67162,
+    "cost_usd": null,
+    "latency_ms": 6231,
+    "halted_reason": null,
+    "by_agent": {
+      "plan_reader": {
+        "calls": 4,
+        "input_tokens": 7230,
+        "cached_input_tokens": 12427,
+        "output_tokens": 2431,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 22088,
+        "cost_usd": null
+      },
+      "eligibility": {
+        "calls": 4,
+        "input_tokens": 6544,
+        "cached_input_tokens": 11413,
+        "output_tokens": 143,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 18100,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 2,
+        "input_tokens": 2939,
+        "cached_input_tokens": 1513,
+        "output_tokens": 510,
+        "reasoning_tokens": 0,
+        "tool_calls": 10,
+        "total_tokens": 4962,
+        "cost_usd": null
+      },
+      "opportunity": {
+        "calls": 2,
+        "input_tokens": 2298,
+        "cached_input_tokens": 1488,
+        "output_tokens": 349,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 4135,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 3229,
+        "cached_input_tokens": 1859,
+        "output_tokens": 634,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 5722,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 1958,
+        "cached_input_tokens": 1173,
+        "output_tokens": 637,
+        "reasoning_tokens": 0,
+        "tool_calls": 8,
+        "total_tokens": 3768,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 2054,
+        "cached_input_tokens": 0,
+        "output_tokens": 557,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2611,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 2,
+        "input_tokens": 3189,
+        "cached_input_tokens": 2193,
+        "output_tokens": 394,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 5776,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_8ef12bca8e",
+    "at": "2026-10-26T03:23:14.238554+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": true,
+    "practice_count": 1,
+    "model_calls": 18,
+    "tool_calls": 15,
+    "input_tokens": 18234,
+    "cached_input_tokens": 18044,
+    "output_tokens": 3362,
+    "total_tokens": 39640,
+    "cost_usd": null,
+    "latency_ms": 4783,
+    "halted_reason": null,
+    "by_agent": {
+      "plan_reader": {
+        "calls": 4,
+        "input_tokens": 1771,
+        "cached_input_tokens": 8471,
+        "output_tokens": 549,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 10791,
+        "cost_usd": null
+      },
+      "eligibility": {
+        "calls": 3,
+        "input_tokens": 3988,
+        "cached_input_tokens": 3927,
+        "output_tokens": 729,
+        "reasoning_tokens": 0,
+        "tool_calls": 2,
+        "total_tokens": 8644,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 2,
+        "input_tokens": 1503,
+        "cached_input_tokens": 1091,
+        "output_tokens": 273,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 2867,
+        "cost_usd": null
+      },
+      "opportunity": {
+        "calls": 2,
+        "input_tokens": 1776,
+        "cached_input_tokens": 1066,
+        "output_tokens": 373,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 3215,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 1739,
+        "cached_input_tokens": 1324,
+        "output_tokens": 280,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 3343,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 2147,
+        "cached_input_tokens": 0,
+        "output_tokens": 272,
+        "reasoning_tokens": 0,
+        "tool_calls": 2,
+        "total_tokens": 2419,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 2026,
+        "cached_input_tokens": 0,
+        "output_tokens": 576,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2602,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 2,
+        "input_tokens": 3284,
+        "cached_input_tokens": 2165,
+        "output_tokens": 310,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 5759,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_4cff5ea15a",
+    "at": "2026-10-26T03:42:58.238436+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": true,
+    "practice_count": 6,
+    "model_calls": 19,
+    "tool_calls": 29,
+    "input_tokens": 28787,
+    "cached_input_tokens": 30139,
+    "output_tokens": 5416,
+    "total_tokens": 64342,
+    "cost_usd": null,
+    "latency_ms": 6171,
+    "halted_reason": null,
+    "by_agent": {
+      "plan_reader": {
+        "calls": 4,
+        "input_tokens": 5862,
+        "cached_input_tokens": 12948,
+        "output_tokens": 2266,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 21076,
+        "cost_usd": null
+      },
+      "eligibility": {
+        "calls": 4,
+        "input_tokens": 6913,
+        "cached_input_tokens": 12434,
+        "output_tokens": 140,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 19487,
+        "cost_usd": null
+      },
+      "opportunity": {
+        "calls": 2,
+        "input_tokens": 2731,
+        "cached_input_tokens": 0,
+        "output_tokens": 389,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 3120,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 2,
+        "input_tokens": 3377,
+        "cached_input_tokens": 0,
+        "output_tokens": 472,
+        "reasoning_tokens": 0,
+        "tool_calls": 9,
+        "total_tokens": 3849,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 2568,
+        "cached_input_tokens": 1339,
+        "output_tokens": 570,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 4477,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 1848,
+        "cached_input_tokens": 1134,
+        "output_tokens": 551,
+        "reasoning_tokens": 0,
+        "tool_calls": 7,
+        "total_tokens": 3533,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 2145,
+        "cached_input_tokens": 0,
+        "output_tokens": 674,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2819,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 2,
+        "input_tokens": 3343,
+        "cached_input_tokens": 2284,
+        "output_tokens": 354,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 5981,
+        "cost_usd": null
+      }
+    }
+  },
+  {
+    "run_id": "run_63849f7eed",
+    "at": "2026-10-26T03:48:29.090933+00:00",
+    "county": "Rockingham",
+    "model": "gpt-6-luna",
+    "plan_supplied": true,
+    "practice_count": 6,
+    "model_calls": 19,
+    "tool_calls": 28,
+    "input_tokens": 27634,
+    "cached_input_tokens": 27922,
+    "output_tokens": 5363,
+    "total_tokens": 60919,
+    "cost_usd": null,
+    "latency_ms": 54077,
+    "halted_reason": null,
+    "by_agent": {
+      "plan_reader": {
+        "calls": 4,
+        "input_tokens": 5071,
+        "cached_input_tokens": 11711,
+        "output_tokens": 1696,
+        "reasoning_tokens": 0,
+        "tool_calls": 4,
+        "total_tokens": 18478,
+        "cost_usd": null
+      },
+      "eligibility": {
+        "calls": 4,
+        "input_tokens": 6650,
+        "cached_input_tokens": 11591,
+        "output_tokens": 769,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 19010,
+        "cost_usd": null
+      },
+      "opportunity": {
+        "calls": 2,
+        "input_tokens": 2725,
+        "cached_input_tokens": 0,
+        "output_tokens": 260,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 2985,
+        "cost_usd": null
+      },
+      "alignment": {
+        "calls": 2,
+        "input_tokens": 3369,
+        "cached_input_tokens": 0,
+        "output_tokens": 466,
+        "reasoning_tokens": 0,
+        "tool_calls": 9,
+        "total_tokens": 3835,
+        "cost_usd": null
+      },
+      "quantification": {
+        "calls": 2,
+        "input_tokens": 2567,
+        "cached_input_tokens": 1325,
+        "output_tokens": 583,
+        "reasoning_tokens": 0,
+        "tool_calls": 1,
+        "total_tokens": 4475,
+        "cost_usd": null
+      },
+      "verification": {
+        "calls": 2,
+        "input_tokens": 1830,
+        "cached_input_tokens": 1120,
+        "output_tokens": 551,
+        "reasoning_tokens": 0,
+        "tool_calls": 7,
+        "total_tokens": 3501,
+        "cost_usd": null
+      },
+      "drafter": {
+        "calls": 1,
+        "input_tokens": 2036,
+        "cached_input_tokens": 0,
+        "output_tokens": 616,
+        "reasoning_tokens": 0,
+        "tool_calls": 0,
+        "total_tokens": 2652,
+        "cost_usd": null
+      },
+      "review_desk": {
+        "calls": 2,
+        "input_tokens": 3386,
+        "cached_input_tokens": 2175,
+        "output_tokens": 422,
+        "reasoning_tokens": 0,
+        "tool_calls": 3,
+        "total_tokens": 5983,
+        "cost_usd": null
+      }
+    }
+  }
+]

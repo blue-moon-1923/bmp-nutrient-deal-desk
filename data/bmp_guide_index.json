@@ -1,0 +1,268 @@
+[
+ {
+  "code": "A-1",
+  "title": "Land Retirement and Alternative Crops",
+  "page": 30,
+  "qualifying_conditions": "There are no specific conditions for CBP purposes beyond the definitions above, with the expectation that reported cost- share practices conform to state or federal practice standards, and any non-cost-shared practices conform to the criteria described in the Resource Improvement (RI) Practice Definitions and Verification Visual Indicators Report (linked under",
+  "definition": "Alternative crops: Accounts for those crops that are planted and managed as permanent, such as warm season grasses, to sequester carbon in the soil. Land retirement to Ag open space: Converts land area to hay without nutrients. Agricultural land retirement takes marginal and highly erosive cropland out of production by planting permanent vegetative cover such as shrubs, grasses and/or trees. Land retirement to pasture: Converts land area to pasture. Agricultural land retirement takes marginal and highly erosive cropland out of production by planting permanent vegetative cover such as shrubs, grasses, and/or trees. Agricultural agencies have a program to assist farmers in land retirement procedures."
+ },
+ {
+  "code": "A-2",
+  "title": "Nutrient Management",
+  "page": 33,
+  "qualifying_conditions": "All elements of the Core Nutrient Management BMP must be met to be eligible for one or more of the Supplemental BMPs for nitrogen and/or phosphorus.",
+  "definition": "Nutrient Management (NM): The implementation of a site- specific combination of nutrient source, rate, timing, and placement into a strategy that seeks to optimize agronomic and environmentally efficient utilization of nitrogen (N) and phosphorus (P). Improvement in nutrient- use efficiency necessitates documentation of nutrient management implementation strategies that are suitable for independent verification. The BMPs for Nutrient Management are categorized into Core Nutrient Management and Supplemental Nutrient Management for both N and P. Supplemental NM is further divided by Rate, Placement, and Timing. Nitrogen Core Nutrient Management: Applications of nitrogen are made in accordance to all of the following elements as applicable: \u2022 Land-grant university recommendations for nitrogen applications at field level. \u2022 Manure analysis and volume, using either test or book values to dete"
+ },
+ {
+  "code": "A-3",
+  "title": "Conservation Tillage",
+  "page": 38,
+  "qualifying_conditions": "The tillage routine must maintain 15 percent or greater crop residue coverage immediately after planting to be considered a BMP. There are no additional specifications or qualifying conditions beyond those described in the definitions above.",
+  "definition": "Conventional Tillage: Any tillage routine that does not achieve 15 percent crop residue coverage immediately after planting is considered conventional tillage and does not qualify as a BMP. Low Residue Tillage: A conservation tillage routine that involves the planting, growing and harvesting of crops with minimal disturbance to the soil in an effort to maintain 15 to 29 percent crop residue coverage immediately after planting each crop. Conservation Tillage: A conservation tillage routine that involves the planting, growing and harvesting of crops with minimal disturbance to the soil in an effort to maintain 30 to 59 percent crop residue coverage immediately after planting each crop. High Residue, Minimum Soil Disturbance Tillage: A conservation tillage routine that involves the planting, growing and harvesting of crops with minimal disturbance to the soil in an effort to maintain at lea"
+ },
+ {
+  "code": "A-4",
+  "title": "Cover Crops \u2013 Traditional",
+  "page": 41,
+  "qualifying_conditions": "As noted in the definitions, the application of nutrients in the fall determines which Traditional Cover Crop practice is applicable. Traditional Cover Crops are not harvested in the spring. If a cover crop is harvested (e.g., a winter cereal) then it would count as a Commodity Cover Crop (see A-5. Cover Crops \u2013 Commodity). The planting date (early, standard, or late) is based on the average frost date for the area. Early means the cover crop is planted more than two weeks before the average frost date. Standard or normal is when the cover crops is planted between the average frost date and two weeks before that date. Late is when the cover crop is planted within three weeks after the average frost date. Cover crop BMPs can also be distinguished by the planting or seeding method (aerial, drilled, other). Aerial includes seeding by airplane and other broadcast methods where the seed is no",
+  "definition": "Traditional Cover Crop: A short-term crop grown after the main cropping season to reduce nutrient losses to ground and surface water by sequestering nutrients. This type of cover crop may not receive nutrients in the fall and may not be harvested in the spring. Traditional Cover Crop with Fall Nutrient Applications: A short- term crop grown after the main cropping season to reduce nutrient losses to ground and surface water by sequestering nutrients. This type of cover crop is planted upon cropland where manure is applied following the harvest of a summer crop and prior to cover crop planting. The crop may not be harvested in the spring."
+ },
+ {
+  "code": "A-5",
+  "title": "Cover Crops \u2013 Commodity",
+  "page": 44,
+  "qualifying_conditions": "Commodity cover crops may be harvested, but if it received fall nutrient applications then it is not eligible as a BMP. The planting date (early, standard, or late) is based on the average frost date for the area. Early means the cover crop is planted more than two weeks before the average frost date. Standard or normal is when the cover crop is planted between the average frost date and two weeks before that date. Late is when the cover crop is planted within three weeks after the average frost date. Cover crop BMPs can also be distinguished by the planting or seeding method (aerial, drilled, other). Aerial includes seeding by airplane and other broadcast methods where the seed is not incorporated into the soil (including broadcast only and broadcast/stalk-chopped). Drilled involves planting with a seed drill, whether no-till or conventional till conditions apply. Other includes any non",
+  "definition": "Commodity Cover Crop: A winter cereal crop planted for harvest in the spring which does not receive nutrient applications in the fall. Any winter cereal crop which did receive applications in the fall is not eligible for nutrient reductions."
+ },
+ {
+  "code": "A-6",
+  "title": "Animal Waste Management System",
+  "page": 47,
+  "qualifying_conditions": "There are no additional specifications or qualifying conditions beyond those described in the definitions above.",
+  "definition": "Animal Waste Management System (AWMS): Any structure designed for collection, transfer and storage of manures and associated wastes generated from the confined portion of animal operations and complies with NRCS 313 (Waste Storage Facility) or NRCS 359 (Waste Treatment Lagoon) practice standards. Manure conserved through reduced storage and handling losses associated with AWMS implementation are available for land application or export from the farm."
+ },
+ {
+  "code": "A-7",
+  "title": "Barnyard Runoff Control and",
+  "page": 50,
+  "qualifying_conditions": "Cost-shared runoff control or stabilization must meet the standards of the federal or state program in which they are enrolled. Non-cost-shared gutters or runoff control structures must be documented and meet the CBP\u2019s criteria as defined for the relevant Resource Improvement (RI) practice (CBP RI-16, barnyard clean water diversion).",
+  "definition": "Barnyard runoff control includes the installation of practices to control runoff from barnyard areas. This includes practices such as roof runoff control, diversion of clean water from entering the barnyard and control of runoff from barnyard areas. Loafing lot management is the stabilization of areas frequently and intensively used by people, animals or vehicles by establishing vegetative cover, surfacing with suitable materials, and/or installing needed structures. This does not include poultry pad installation."
+ },
+ {
+  "code": "A-8",
+  "title": "Pasture and Grazing Management Practices",
+  "page": 52,
+  "qualifying_conditions": "Jurisdictions may have additional requirements for management of grazing and pasture areas, such as stocking rates (animals per acre). For CBP purposes the only requirement is the minimum vegetative cover. These BMPs can be applied with or without related BMPs such as stream exclusion fencing or off-stream watering systems.",
+  "definition": "Horse Pasture Management: maintaining a 50% pasture cover with managed species and managing high traffic areas. Precision Intensive Rotational/Prescribed Grazing: This practice utilizes a range of pasture management and grazing techniques to improve the quality and quantity of the forages grown on pastures and reduce the impact of animal travel lanes, animal concentration areas or other degraded areas. PG can be applied to pastures intersected by streams or upland pastures outside of the degraded stream corridor (35 feet width from top of bank). Pastures under the PG systems need to have a vegetative cover of 60% or greater."
+ },
+ {
+  "code": "A-9",
+  "title": "Stream Restoration (Ag)",
+  "page": 55,
+  "qualifying_conditions": "There are further protocol-specific qualifying criteria detailed in other resources listed under",
+  "definition": "Natural Channel Design (NCD) applies the principles of stream geomorphology to maintain a state of dynamic equilibrium among water, sediment, and vegetation that creates a stable channel. Legacy Sediment Removal (LSR) seeks to remove legacy sediments from the stream and its floodplain and thereby restore the natural potential of aquatic resources including a combination of streams, floodplains, and wetlands. Regenerative Stream Channel (RSC, aka Regenerative Stormwater Conveyance) uses in-stream weirs in perennial streams to increase the interaction with the floodplain during smaller storm events. These projects may also include sand seepage wetlands and other habitats to increase the stream\u2019s connection with its floodplain. Only wet channel RSC practices are eligible as stream restoration projects. Dry channel RSC projects are considered a runoff reduction retrofit practice, which is no"
+ },
+ {
+  "code": "A-10",
+  "title": "Dairy Precision Feeding and Forage Management",
+  "page": 58,
+  "qualifying_conditions": "This BMP is only applicable to dairy operations.",
+  "definition": "Dairy precision feeding and/or forage management reduces the quantity of phosphorus and nitrogen fed to livestock by formulating diets within 110% of Nutritional Research Council recommended level in order to minimize the excretion of nutrients without negatively affecting milk production."
+ },
+ {
+  "code": "A-11",
+  "title": "Agricultural Stormwater Management Practices",
+  "page": 60,
+  "qualifying_conditions": "In most cases, agricultural stormwater management practices are designed and constructed according to engineering criteria and specifications outlined in state urban stormwater design manuals, although some states allow employment of standardized plans to address agricultural stormwater for poultry houses and similar facilities. For Chesapeake Bay Program (CBP) purposes, this does not include any practices that fall under existing feeding space BMPs nor any practices applied to cropland or pasture sources. In addition, reductions from all feed space BMPs, including agricultural stormwater management, cannot exceed the existing load from feed space (i.e., feed space loads cannot drop below zero due to agricultural stormwater management practices).",
+  "definition": "Agricultural Stormwater Management BMP: Agricultural stormwater associated with confined agricultural livestock production land area through practices that reduce nutrient and sediment pollutant loads through engineered mechanisms such as settling or filtering. Enter units of acres treated or percent of acres treated."
+ },
+ {
+  "code": "A-12",
+  "title": "Forest Buffers and Grass Buffers",
+  "page": 62,
+  "qualifying_conditions": "These practices are only applicable on converted cropland; see Reference Sheet A-13 for applicable buffer practices on pasture. Any buffer less than 35 feet in (average) width is only eligible for the narrow buffer practices. Cost-shared buffers must meet the standards of the federal or state program in which they are enrolled. Non-cost-shared buffers must be documented and meet the CBP\u2019s criteria as defined for the relevant Resource Improvement (RI) practices (CBP RI-7,8 for grass buffers; CBP RI-9,10 for forest buffers).",
+  "definition": "Forest Buffer: Linear wooded areas that help filter nutrients, sediments and other pollutants from runoff as well as remove nutrients from groundwater. The recommended buffer width is 100 feet, with a 35 feet minimum width required. Forest Buffer \u2013 Narrow: Linear strips of wooded areas maintained on agricultural land between the edge of fields and streams, rivers or tidal waters that help filter nutrients, sediment and other pollutants from runoff. Narrow forest buffer strips are between 10 and 35 feet in width. Grass Buffer: Linear strips of grass or other non-woody vegetation maintained to help filter nutrients, sediment and other pollutants from runoff. The recommended buffer width for buffers is 100 feet, with a 35 feet minimum width required. Grass Buffer \u2013 Narrow: Linear strips of grass or other non-woody vegetation maintained on agricultural land between the edge of fields and str"
+ },
+ {
+  "code": "A-13",
+  "title": "Forest Buffers and Grass Buffers with Stream Exclusion Fencing",
+  "page": 66,
+  "qualifying_conditions": "These buffer practices with exclusion fencing are only applicable on converted pasture; see Reference Sheet A-12 for applicable buffer practices on converted cropland. Any buffer less than 35 feet in (average) width is only eligible for the narrow buffer practices. Cost-shared buffers must meet the standards of the federal or state program in which they are enrolled. Non-cost-shared buffers must be documented and meet the CBP\u2019s criteria as defined for the relevant Resource Improvement (RI) practices (CBP RI-4a,4b for narrow grass and forest buffers, respectively; CBP RI-5 for grass buffers and CBP RI-6 for forest buffers). Figure A-13-1. A recently planted forest buffer, with exclusion fencing to prevent livestock from entering the buffered area or stream. When installing a riparian forest buffer in a pasture it is standard to include exclusion fencing. Many such conservation practices i",
+  "definition": "Forest Buffer: Linear wooded areas that help filter nutrients, sediments and other pollutants from runoff as well as remove nutrients from groundwater. The recommended buffer width is 100 feet, with a 35 feet minimum width required. Forest Buffer \u2013 Narrow: Linear strips of wooded areas maintained on agricultural land between the edge of fields and streams, rivers or tidal waters that help filter nutrients, sediment and other pollutants from runoff. Narrow forest buffer strips are between 10 and 35 feet in width. Grass Buffer: Linear strips of grass or other non- woody vegetation maintained to help filter nutrients, sediment and other pollutants from runoff. The recommended buffer width for buffers is 100 feet, with a 35 feet minimum width required. Grass Buffer \u2013 Narrow: Linear strips of grass or other non-woody vegetation maintained on agricultural land between the edge of fields and st"
+ },
+ {
+  "code": "A-14",
+  "title": "Manure Treatment (Composting)",
+  "page": 70,
+  "qualifying_conditions": "By definition, finished compost has a C:N at or below 25. Manure composting BMPs are only applicable to agricultural operations and excludes composting systems used for animal mortality management. In-house windrowing of poultry litter between flocks is not considered a composting BMP, but is considered a storage process.",
+  "definition": "There are four categories of composting systems and twelve total BMPs defined by the CBP. The four composting systems are listed below. 1. In-Vessel and Rotating Bin 2. Forced Aeration 3. Turned Pile and Windrows 4. Static (passive) Pile and Windrows The BMPs are further distinguished based on the bulking agent and its C:N ratio. A bulking agent is the material or media added to the composting system that increases the porosity and aeration capacity of the manure. Carbonaceous bulking agents \u2013 such as wood chips, sawdust or straw \u2013 also add degradable carbon to the composting mixture. Each of the four composting systems are divided into three BMPs: (1) when the bulking agent or its C:N ratio are unknown; (2) when the bulking agent or its C:N ratio are known and C:N > 100, and (3) when the bulking agent or its C:N are known and the C:N < 100. Composting system CAST BMP Short Name TN Remov"
+ },
+ {
+  "code": "A-15",
+  "title": "Manure Treatment (Thermochemical)",
+  "page": 74,
+  "qualifying_conditions": "These BMPs are applicable to systems designed for treatment of animal manure and do not apply to systems used for animal mortality management.",
+  "definition": "The Chesapeake Bay Program has defined BMPs for three types of thermochemical conversion (TCC) processes used for manure treatment: combustion, gasification and pyrolysis. Any directly monitored or measured treatment system can also earn credit for Total Nitrogen (TN) removal as a BMP, regardless of what technology the system is comprised of. Pyrolysis is the conversion of organic matter in the absence of oxygen. Pyrolysis temperatures range between 575 and 1,475\u02daF (300 to 800\u00b0C). Organic matter is broken down to produce some combination of liquids, gases and solids, depending on the type of pyrolysis process. Fast Pyrolysis has a short residence time (seconds) and moderate temperatures, and is primarily used to produce bio-oil (up to 75% by weight of feedstock). Slow Pyrolysis has longer residence times (hours to days) and lower temperatures and is used to produce char. Gasification is "
+ },
+ {
+  "code": "A-16",
+  "title": "Manure Transport",
+  "page": 77,
+  "qualifying_conditions": "None for CBP purposes beyond what is included in the definition. States may have requirements for haulers or producers that are not summarized here.",
+  "definition": "Manure Transport: Transport of excess manure in or out of a county. Manure may be of any type\u2014poultry, dairy, or any of the animal categories. Transport should only be reported for county to county transport. Movement within the same county should not be included."
+ },
+ {
+  "code": "A-17",
+  "title": "Manure Incorporation or Injection",
+  "page": 79,
+  "qualifying_conditions": "Manure must be incorporated into the soil within 1-3 days to be eligible for the manure incorporation (late) BMPs and must be incorporated within 24 hours to be eligible for the incorporation (early) BMPs. The",
+  "definition": "Manure Incorporation is defined as the mixing of dry, semi-dry, or liquid organic nutrient sources (including manures, biosolids, and compost) into the soil profile within a specified time period from application by a range of field operations (\u226424hr for full ammonia loss reduction credit and 3 days for P reduction credit(s)). These methods can provide nutrient loss reductions that may differ for P and N by method used. Nutrient loss reductions are primarily due to lower ammonia-N volatilization and in many cases lower dissolved P and N losses in surface runoff. Nutrient loss reductions may vary with timing between application and soil mixing, degree of soil mixing, and percent soil surface disturbance. The CBP has established two categories of incorporation: High disturbance incorporation provides the highest degree of mixing of organic nutrient sources into the root zone, but effective"
+ },
+ {
+  "code": "A-18",
+  "title": "Animal Mortality Management (Composting)",
+  "page": 82,
+  "qualifying_conditions": "Any mortality management practice or method mentioned that meets the definitions above and treats routine animal mortalities from one of the animal groups listed in the table below is eligible for credit. Practices or methods used for catastrophic mortality events are not eligible under this set of practices. Practices or methods that are also used to treat manure should not be reported twice, i.e., they should not be reported as both mortality and manure treatment practices. Additional guidelines for specificiations can be found in the Natural Resource Conservation Service (NRCS) Conservation practice standards, as well as the Resource Improvement (RI) report (pages 11 \u2013 12). Figure A-18-1. Animal mortality composting facility. Source: Animal Mortality Composting - Blanchard Demonstration Farms (blancharddemofarms.org). ===================================================================",
+  "definition": "Animal mortality disposal by composting: The handling, storage and disposal of poultry, livestock or other routine animal mortalities by composting including one or more of the following, alone or in combination: static piles and windrows (a.k.a. passive piles), turned windrows, static aerated windrows, a bin system, a tunnel composter, or in-vessel composter such as a rotating drum. An implementor must report units of animal units or tons of carcasses of dead animal for an annual practice or in units of systems for a structural system. Animal mortality disposal by landfill or rendering is the handling, storage and disposal of poultry, livestock or other routine animal mortalities by internment in a landfill or processing at a rendering facility. An implementor must report units of animal units or tons of carcasses of dead animal by animal type for an annual practice or in units of syste"
+ },
+ {
+  "code": "A-19",
+  "title": "Off-stream Watering Without Fencing",
+  "page": 86,
+  "qualifying_conditions": "This BMP is only applicable for livestock pastures that do not have stream exclusion practices, as pastures that exclude livestock from streams already provide alternative water sources as part of those practices. See buffers with exclusion fencing (A-13) as an example. Otherwise, there are no specific conditions for CBP purposes. It is expected that reported cost-share practices conform to state or federal practice standards, and that any non-cost-shared practices conform to the criteria described in the Resource Improvement (RI) Practice Definitions and Verification Visual Indicators Report (linked under",
+  "definition": "Off-stream watering without fencing: This BMP requires the use of alternative drinking water sources, such as permanent or portable livestock water troughs placed away from the stream corridor. Implementing off-stream shade for livestock is encouraged where applicable. The water supplied to the facilities can be from any source, including pipelines, spring developments, water wells and ponds. In-stream watering facilities, such as stream crossings or access points, are not considered in this definition. The modeled benefits of alternative watering facilities can be applied to pasture acres in association with improved pasture management systems such as rotational grazing. Watering trough (CBP Resource Improvement Practice, RI- 18): A permanent or portable device to provide an adequate amount and quality of drinking water for livestock."
+ },
+ {
+  "code": "A-20",
+  "title": "Poultry Litter Ammonia Control",
+  "page": 88,
+  "qualifying_conditions": "To receive ammonia emission reduction credit, alum must be applied at a rate of 250 lbs per 1000 square feet. Consult your local NRCS representative to determine the necessary local, state and federal laws to follow during application, and for help with application products, rates, methods, handling, storage and timing.",
+  "definition": "Poultry Litter Treatment: A surface application of alum, an acidifier, to poultry litter to acidify poultry litter and maintain ammonia in the non-volatile ionized form (ammonium). Poultry House Biofilters: These poultry housing ventilation systems pass air through a biofilter media that incorporates a layer of organic material, typically a mixture of compost and wood chips or shreds. These support a microbial population and reduce ammonia emissions by oxidizing volatile organic compounds into carbon dioxide, water, and inorganic salts."
+ },
+ {
+  "code": "A-21",
+  "title": "Agricultural Ditch Management Practices",
+  "page": 91,
+  "qualifying_conditions": "Each agricultural ditch and drainage management practice has specifications or key qualifying conditions to be eligible for credit. For example, blind inlets are not eligible for water quality benefits unless they are installed to replace an existing open inlet. For a full list of specifications of each practice, consult the",
+  "definition": "Blind Inlets: Drain structure backfilled with pervious materials (gravel or sand) that filter drainage water prior to entering subsurface tile drain. Eligible when installed to replace existing tile riser. Blind Inlets with P-sorbing materials: Drain structure backfilled with phosphorus sorption material solid media that filter drainage water prior to entering subsurface tile drain. Eligible when installed to replace existing tile riser. Denitrifying Bioreactors: Structure that diverts agricultural tile- drainage water to pass through a media chamber filled with a carbon source for denitrification of dissolved nitrate to occur. Monitored Denitrifying Bioreactor for spring or seep: Structure that diverts emerging groundwater to pass through a media chamber filled with a carbon source for denitrification of dissolved nitrate to occur. The treated flow volume and nitrate concentrations are "
+ },
+ {
+  "code": "A-22",
+  "title": "Tree Planting (Agricultural)",
+  "page": 95,
+  "qualifying_conditions": "This BMP does not apply to trees planted as riparian buffers or for trees planted in developed settings, which are separate BMPs.",
+  "definition": "Tree planting includes any trees planted on agricultural land, except those used to establish riparian forest buffers, targeting lands that are highly erodible or identified as critical resource areas."
+ },
+ {
+  "code": "A-23",
+  "title": "Soil Conservation and Water Quality Plans",
+  "page": 97,
+  "qualifying_conditions": "As noted above, for CBP purposes plans and any associated conservation practices implemented must meet applicable NRCS technical standards. Plans are subject to other state-specific programmatic requirements, where they exist; the term used for a \u201cSoil Conservation and Water Quality Plan\u201d may vary based on state programs but the purpose of the qualifying conservation plans remains the same.",
+  "definition": "Soil Conservation and Water Quality Plan: For CBP purposes, these are farm conservation plans that involve a combination of agronomic, management and engineered practices that protect and improve soil productivity and water quality and prevent deterioration of natural resources on all or part of a farm. Plans must meet applicable NRCS technical standards."
+ },
+ {
+  "code": "A-24",
+  "title": "Nontidal Wetland Restoration",
+  "page": 100,
+  "qualifying_conditions": "Wetland restoration practices are critical to meeting the Chesapeake Bay\u2019s water quality 2025 goals under both the Chesapeake Bay TMDL and the 2014 Watershed Agreement. However, the conversion or alteration of high quality wetlands strictly for the purposes of nitrogen, phosphorus or sediment load reductions should be avoided. Changing the functions and/or values of existing high quality wetland systems and high quality non-wetland ecosystems that already provide denitrification and phosphorous or sediment trapping should not be pursued. Also, important ecosystems such as rare and endangered species habitat, older growth forests, unique ecotones (i.e. Delmarva Bays, Magnolia bogs, critical fish spawning areas, among others) should not be priorities for wetland practices solely for the nutrient and sediment reductions under the Bay TMDL. Each project should be assessed based on federal, s",
+  "definition": "Definitions for wetland practices used by the Chesapeake Bay Program do not affect regulatory or other legal definitions that exist for federal, state or local programs. To account for the range of nontidal wetland practices that occur in the Chesapeake Bay Watershed, yet distinguish practices based on key differences, four BMP categories have been established: restoration, rehabilitation, enhancement and creation. All four are defined here for reference, but the nutrient and sediment reductions associated with rehabilitation, enhancement and creation are currently under review by a BMP expert panel and therefore not summarized here. Wetland Restoration (re-establishment): The manipulation of the physical, chemical, or biological characteristics of a site with the goal of returning natural/historic functions to a former wetland. Wetland Rehabilitation: The manipulation of the physical, c"
+ },
+ {
+  "code": "D-1",
+  "title": "Stormwater Performance Standards",
+  "page": 104,
+  "qualifying_conditions": "These are practices installed on a newly developed or a redeveloped site. Practices installed to treat an existing development that is untreated, or inadequately treated, are considered retrofits (see D- 2: Stormwater Retrofits). Consult the expert panel report for additional suggested qualifying conditions and your corresponding state stormwater BMP manual for specific design specifications or requirements.",
+  "definition": "Stormwater Performance Standards (aka Stormwater Practices for New and Redevelopment Projects): This refers to the range of structural and non-structural measures installed over the entire development (or redevelopment) site to reduce runoff, flooding and downstream bank erosion, as well as improve stream water quality. These practices capture stormwater runoff generated over a wide range of storm events and then treat it through some combination of settling, filtering, adsorption or biological uptake to remove nutrients and sediment. Runoff Reduction is the total post- development runoff volume that is reduced through canopy interception, soil amendments, evaporation, rainfall harvesting, engineered infiltration, extended filtration or evapotranspiration. Stormwater practices that achieve at least a 25 percent reduction of the annual runoff volume are classified as Runoff Reduction (RR)"
+ },
+ {
+  "code": "D-2",
+  "title": "Stormwater Retrofits",
+  "page": 108,
+  "qualifying_conditions": "Retrofit projects apply to existing development that is currently untreated or inadequately treated by one or more stormwater practices. Practices installed on a newly developed or redeveloped site are categorized under Stormwater Performance Standards (see Sheet D-1). Consult the",
+  "definition": "Stormwater retrofits can be classified into two broad project categories: New retrofits or existing BMP retrofits. New retrofits: New retrofit projects create storage to reduce nutrients on land that is not currently receiving stormwater treatment. Common examples of new retrofit facilities include creating new storage: a) Near existing stormwater outfalls b) Within the existing stormwater conveyance system c) Adjacent to large parking lots d) Green street retrofits e) On-site Low Impact Development (LID) retrofits With the exception of (e), many new retrofit facilities are typically located on public land and utilize a range of stormwater treatment and runoff reduction mechanisms. Due to site constraints, new retrofits may not always meet past or future performance standards for BMP sizing that applies to new development. Existing BMP retrofits: An existing stormwater practice is either"
+ },
+ {
+  "code": "D-3",
+  "title": "Erosion and Sediment Controls for",
+  "page": 112,
+  "qualifying_conditions": "A developer must submit an ESC plan for their construction project that specifies a unique combination of erosion and sediment controls for the unique conditions of the site. The plan is reviewed as part of the state and/or local land development approval process, and the ESC practices must be installed prior to construction activity. Construction sites are inspected periodically to ensure the practices are intact and working properly to prevent off-site sediment discharge. For additional suggested qualifying conditions or requirements, consult the",
+  "definition": "Erosion and Sediment Control Level 1: This level includes ESC practices implemented under historical performance standards from approximately 2000 or before. The sediment trapping requirements were typically 1,800 cubic feet/acre, stabilization requirements were less rapid, and inspections occurred less frequently, among other factors. Use this BMP where specific control measures are unknown. Level 1 ESC practices are assumed during the calibration phase of the Watershed Model (1985-2005). Erosion and Sediment Control Level 2: This level of performance reflects the more stringent ESC requirements that have been adopted by local and state governments and generally conform to the standard requirements in EPA\u2019s 2012 Construction General Permit. These include a greater sediment treatment capacity (typically 3,600 cubic feet/acre), surface outlets, more rapid vegetative cover for temporary an"
+ },
+ {
+  "code": "D-4",
+  "title": "Dirt and Gravel Roads Erosion and Sediment Control",
+  "page": 115,
+  "qualifying_conditions": "Inspection and maintenance of these practices are required to ensure proper design implementation, performance values, and associated pollution reduction estimates. Consult the Simpson Weammert-Lane 2009 Report (see Additional Information) for further details.",
+  "definition": "Driving Surface Aggregate + Raising the Roadbed: Reducing the amount of sediment runoff from dirt and gravel roads through the use of driving surface aggregates (DSA) such as durable and erosion resistant road surface and raising road elevation to restore natural drainage patterns. Driving Surface Aggregate with Outlets: Reducing the amount of sediment runoff from dirt and gravel roads through the use of driving surface aggregates (DSA) such as durable and erosion resistant road surface and through the use of additional Drainage Outlets. Outlets Only: Reducing the amount of sediment runoff from dirt and gravel roads through the use of additional Drainage Outlets. Driving Surface Aggregate: a well-graded, unbound mixture of aggregate designed for use as a wearing course on unpaved roads. DSA achieves sediment reductions by decreasing erosion and transport of fine material from the road su"
+ },
+ {
+  "code": "D-5",
+  "title": "Urban Stream Restoration",
+  "page": 118,
+  "qualifying_conditions": "Protocol-specific qualifying criteria can be found in Section 3.1.3 of the Unified Guide for Crediting Stream and Floodplain Restoration Projects. All projects must meet the following criteria to be eligible for credit: \u2022 The project MAY NOT be primarily designed to protect public infrastructure. Bank armoring and rip rap are not eligible for stream restoration credit (Note: the type of bank stabilization technique that is used can impact credit calculations under Protocol 1. For updated definitions on bank armoring, consult the Unified Guide linked in Additional Resources). \u2022 Stream reach must be greater than 100 ft in length (Note: due to their unique location, Protocol 5 OGS practices are exempted from the 100-ft reach length restriction). \u2022 Reach restored must be actively enlarging or degrading. \u2022 Reach restored MAY NOT be tidally influenced. \u2022 Restoration plan must utilize a compreh",
+  "definition": "Natural Channel Design (NCD) applies the principles of stream geomorphology to maintain a state of dynamic equilibrium among water, sediment, and vegetation that creates a stable channel. Legacy Sediment Removal (LSR) seeks to remove legacy sediments from the stream and its floodplain and thereby restore the natural potential of aquatic resources including a combination of streams, floodplains, and wetlands. Regenerative Stream Channel (RSC, aka Regenerative Stormwater Conveyance) uses in-stream weirs in perennial streams to increase the interaction with the floodplain during smaller storm events. These projects may also include sand seepage wetlands and other habitats to increase the stream\u2019s connection with its floodplain. Only wet channel RSC practices are eligible as stream restoration projects. Dry channel RSC projects can be considered a runoff reduction retrofit practice (see Shee"
+ },
+ {
+  "code": "D-6",
+  "title": "Urban Nutrient Management",
+  "page": 123,
+  "qualifying_conditions": "The technical support and qualifications needed to write a UNM plan varies in each Bay State. Localities should consult with State agencies to determine information requirements for UNM plans or if state regulations prevent reporting UNM plans as unique BMPs (see resources listed under Additional Information).",
+  "definition": "Urban Nutrient Management (UNM) is defined as the proper management of major nutrients for turf and landscape plants on a property to best protect water quality. An urban nutrient management plan (UNM plan) is a written, site- specific plan which addresses how the major plant nutrients (nitrogen, phosphorus and potassium) are to be annually managed for expected turf and landscape plants and for the protection of water quality. The goal of an urban turf and landscape nutrient management plan is to minimize adverse environmental effects, primarily upon water quality, and avoid unnecessary nutrient applications. It should be recognized that some level of nutrient loss to surface and groundwater will occur even by following the recommendations in a nutrient management plan. The impacts of urban nutrient management plans will differ from lawn-to- lawn depending on nutrient export risk factors"
+ },
+ {
+  "code": "D-7",
+  "title": "Urban Tree Planting BMPs",
+  "page": 126,
+  "qualifying_conditions": "Trees planted for mitigation or as part of other BMPs or not eligible under these practices; an area of planted trees can only be counted towards one BMP. For example, if an acre of trees is planted along a stream as a forest buffer in a developed area it can be reported as an Urban Forest Buffer, but that same acre of trees cannot also be reported as Urban Forest Planting or Urban Tree Canopy Expansion.",
+  "definition": "To understand tree planting BMPs for developed areas, it helps to understand the three different land uses that represent tree cover in the Watershed Model: \u2022 Tree Canopy over Impervious includes trees over roads and non-road impervious surfaces such as buildings and parking lots. \u2022 Tree Canopy over Turfgrass includes trees within 30\u2019- 80\u2019 of non-road impervious surfaces where the understory is assumed to be turf grass or otherwise altered through compaction, removal of surface organic material and/or fertilization. \u2022 Forest includes trees farther than 30\u2019-80\u2019 from non- road impervious surfaces and forming contiguous patches greater than one-acre in extent. Urban Tree Canopy Expansion: The planting of trees in an urban area that are not part of a riparian forest buffer, structural BMP (e.g., bioretention, tree planter) or do not conform to the definition of the Urban Forest Planting BMP."
+ },
+ {
+  "code": "D-8",
+  "title": "Reducing Nutrients from Grey",
+  "page": 130,
+  "qualifying_conditions": "For Option 1: Advanced MS4 Nutrient Discovery Program credit, localities must provide documentation that they possess advanced program elements to target, screen, detect, and correct the nutrient discharges with the highest nutrient loading risks. For a full list of these qualifications, consult Table 7 in the",
+  "definition": "Advanced MS4 Nutrient Discovery Programs: The credit is defined as being equivalent to a maximum of 1% of the dry weather nutrient load within the jurisdiction, which is defined as 20% of the total annual nitrogen and phosphorus load discharged from the urban pervious land in which advanced nutrient discovery programs are targeted. Advanced Grey Infrastructure Nutrient Discovery Program (IDDE): A local program to detect and eliminate illicit discharges from the storm drain system. IDDE programs are mandated as one of the six minimum stormwater control measures that must be addressed by communities regulated under Phase 1 or Phase 2 MS4 NPDES stormwater permits. Illicit discharge detection and elimination credits are only available to localities that show empirical monitoring for each eligible individual discharge. Nutrient Discharges: the complex range of non-stormwater flows that export"
+ },
+ {
+  "code": "D-9",
+  "title": "Street Cleaning (Street Sweeping)",
+  "page": 134,
+  "qualifying_conditions": "Mechanical broom sweepers are only eligible for SCP-9, SCP-10 or SCP-11 based on the frequency of sweeping a given route. The other eight SCPs require an advanced sweeper, either vacuum-assisted or regenerative air. Localities should check with their state stormwater agency for specific data reporting or tracking requirements.",
+  "definition": "The CBP has two categories of street cleaning practices (SCPs) based on the type of sweeper technology. Mechanical broom technology sweepers: Researchers have found that while mechanical sweepers are effective in picking up coarse-grained particles, they leave behind fine-grained particles, which are then subject to future wash-off. Therefore, mechanical broom sweepers are useful in removing gross solids, trash and litter from streets but have very limited capabilities to reduce nutrients and fine sediment. Advanced sweeping technology: Technologies with greater demonstrated ability to remove solids and even finer particles from street surfaces. Regenerative air sweepers are equipped with a sweeping head which creates suction and uses forced air to transfer street debris into the hopper. Vacuum-assisted sweepers are sweepers equipped with a high power vacuum to suction debris from street"
+ },
+ {
+  "code": "D-10",
+  "title": "Storm Drain Cleaning",
+  "page": 137,
+  "qualifying_conditions": "There are three qualifying conditions to ensure that storm drain cleaning efforts have a strong water quality focus: \u2022 Efforts should be targeted to catch basins that trap the greatest organic matter loads, streets with the greatest overhead tree canopy and/or outfalls that generate higher sediment or debris loads. \u2022 The loads removed must be verified using a field protocol to measure the mass or volume of solids collected within the storm drainpipe system. This may also entail periodic sub-sampling of the carbon/nutrient content of the solids that are captured. \u2022 Material must be properly disposed so that it cannot migrate back into the watershed. For more detailed information on specifications and qualifying conditions, consult the",
+  "definition": "Storm Drain Cleaning is the removal of sediment and organic matter from catch basins in a targeted manner that focuses on water quality improvements. The storm drain cleaning program should 1) focus on catch basins trapping the greatest organic matter loads, streets with the greatest adjacent tree canopy and/or outfalls with higher sediment or debris loads; 2) be verified using a field protocol to measure the mass or volume of solids collected with the storm drainpipe system; and 3) properly dispose of removed material so that it cannot migrate back through the watershed."
+ },
+ {
+  "code": "D-11",
+  "title": "Floating Treatment Wetlands",
+  "page": 140,
+  "qualifying_conditions": "The FTW application within an existing wet pond must: \u2022 Achieve a minimum pond surface coverage of 10% and a maximum cover of no more than 50%. \u2022 Have an initial planting density of two plugs per square foot and attain 80% plant coverage on the raft by the end of the growing season. \u2022 The raft should be placed perpendicular to the stormwater flow path and be at least 3.5 feet above the bottom of the pond. \u2022 Utilize FTW units within a large surface area. \u2022 Possess a suitable method for reaeration to prevent anoxic discharges from the pond during the summer months. \u2022 Be adequately anchored or tethered in the pond to protect its flood control function during major storms, as well as enable retrieval for periodic maintenance. Anchoring should not be too taut to inundate the surface and flood the raft. Figure D-11-1. A Floating Treatment Wetland (FTW) in an existing wet pond. Source: Bill Hun",
+  "definition": "Floating Treatment Wetlands are a variant of the BMP enhancement retrofit category. A more specific definition of the practice is below. Floating Treatment Wetlands: Rafts of wetland vegetation that are deployed in existing wet ponds with a drainage area of greater than 400 acres. They are a proprietary or non-proprietary floating island design that incorporates the following general elements: \u2022 A buoyant artificial raft that floats on the surface. \u2022 Constructed from non-toxic materials such as, but not limited to, high density polyethylene (HDPE) plastic, marine grade polystyrene foam and PVC pipe. \u2022 Containing growing media planted with macrophytes (aquatic plants) whose roots extend well below the water surface. Wet Pond (aka stormwater retention pond, wet extended detention pond): An existing stormwater retention pond with a permanent pool of water that has an average depth of 3.5 to"
+ },
+ {
+  "code": "D-12",
+  "title": "Impervious Area Disconnection and Soil Amendments",
+  "page": 143,
+  "qualifying_conditions": "The definition of this BMP includes impervious surface disconnection to amended soils and treatment within the conveyance system, however, only impervious disconnections to amended soils may be reported for credit in the Watershed Model. Additional qualifying conditions and assumptions for impervious surface disconnection to amended soils are outlined in Section 2 of the",
+  "definition": "Impervious Disconnection to Amended Soils: Disconnecting existing impervious area runoff from stormwater drainage systems such as directing rooftops and/or on-lot impervious surfaces to pervious areas with amended soils. Report the disconnect to unamended soils as Urban Filter Strip. Soil Amendment: Conditioners and fertilizers that are added to a soil to increase its infiltration capacity. Compost is one of the most commonly used amendments. Others include zeolite, gypsum and liquid amendments such as ammonium laurel sulfate."
+ },
+ {
+  "code": "D-13",
+  "title": "Dry Detention Ponds",
+  "page": 146,
+  "qualifying_conditions": "There are no specifications or key qualifying conditions for CBP purposes beyond the definitions above, aside from the fact that hydrodynamic structures are not considered a stand-alone BMP. They act similar to a dry detention pond and therefore are included in this group.",
+  "definition": "Dry Detention Ponds are depressions or basins created by excavation or berm construction that temporarily store runoff and release it slowly via surface flow or groundwater infiltration following storms. Hydrodynamic Structures are devices designed to improve quality of stormwater using features such as swirl concentrators, grit chambers, oil barriers, baffles, micropools, and absorbent pads that are designed to remove sediments, nutrients, metals, organic chemicals, or oil and grease from urban runoff."
+ },
+ {
+  "code": "D-14",
+  "title": "Urban Filter Strips",
+  "page": 148,
+  "qualifying_conditions": "An urban filter strip may receive pollutant load reduction credits when used as a stand-along practice to treat relatively small impervious areas (e.g., 5000 ft\u00b2 or less) for new a development, redevelopment, or retrofit site. Pollutant load reductions may also be applied to UFS if it were implemented as a pre-treatment practice as part of a retrofit. This practice should be designed and maintained in accordance with the qualifying conditions to receive pollutant removal credits and excludes the use of conservation landscaping as part of the definition for this BMP. Manicured lawns, athletic fields, and other managed turf or pervious area (that do not meet these conditions) cannot be used as UFS, however, other BMPs may be considered, such as Urban Fertilizer Management (UNM, 2013). \u2022 UFS Runoff Reduction: a 0.4 design ratio of filter strip length to impervious flow length is recommended",
+  "definition": "UFS Runoff Reduction: stable areas with vegetated cover on flat or gently sloping land. Runoff entering the filter strip must be in the form of sheetflow and must enter at a non- erosive rate for the sit-specific soil conditions. A 0.4 design ratio of filter strip length to impervious flow length is recommended for runoff reduction urban filter strips. UFS Stormwater Treatment: stable areas with vegetated cover on flat or gently sloping land. Runoff entering the filter strip must be in the form of sheetflow and must enter at a non-erosive rate for the sit-specific soil conditions. A 0.2 design ratio of filter strip length to impervious flow length is recommended for runoff reduction urban filter strips. Additional qualifying conditions for both practices can be found on pp. 4-5 of the"
+ }
+]

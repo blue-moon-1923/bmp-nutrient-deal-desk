@@ -1,0 +1,71 @@
+<svg class="hero-art" viewBox="0 0 1400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of Virginia farmland: cropland, pasture, a riparian forest buffer and a stream">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#001637"/><stop offset="55%" stop-color="#0f4768"/><stop offset="100%" stop-color="#3899b8"/>
+    </linearGradient>
+    <linearGradient id="ridge1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#17374a"/><stop offset="100%" stop-color="#0f2b3a"/>
+    </linearGradient>
+    <linearGradient id="ridge2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#23543f"/><stop offset="100%" stop-color="#1a4030"/>
+    </linearGradient>
+    <linearGradient id="field1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a7d5c"/><stop offset="100%" stop-color="#38664f"/>
+    </linearGradient>
+    <linearGradient id="field2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6d9464"/><stop offset="100%" stop-color="#537b50"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9ed9ff" stop-opacity=".85"/><stop offset="100%" stop-color="#3899b8" stop-opacity=".9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="300" fill="url(#sky)"/>
+  <circle cx="1160" cy="74" r="30" fill="#ffb026" opacity=".30"/>
+  <circle cx="1160" cy="74" r="17" fill="#ffd27a" opacity=".55"/>
+
+  <!-- distant ridges -->
+  <path d="M0 150 L150 112 L300 140 L450 100 L620 138 L780 104 L950 142 L1120 110 L1280 140 L1400 118 L1400 300 L0 300 Z" fill="url(#ridge1)"/>
+  <path d="M0 184 L170 152 L340 180 L520 146 L700 180 L880 150 L1060 182 L1240 154 L1400 180 L1400 300 L0 300 Z" fill="url(#ridge2)"/>
+
+  <!-- fields -->
+  <path d="M0 214 C 220 196, 430 228, 660 212 C 900 196, 1150 226, 1400 206 L1400 300 L0 300 Z" fill="url(#field1)"/>
+  <path d="M0 252 C 260 236, 500 264, 740 250 C 980 236, 1180 262, 1400 246 L1400 300 L0 300 Z" fill="url(#field2)"/>
+
+  <!-- contour lines on the pasture -->
+  <g stroke="#ffffff" stroke-opacity=".10" fill="none" stroke-width="1.5">
+    <path d="M0 226 C 240 210, 450 240, 680 224 C 910 208, 1160 238, 1400 218"/>
+    <path d="M0 238 C 250 222, 470 252, 700 236 C 930 220, 1170 250, 1400 230"/>
+    <path d="M0 266 C 260 250, 500 278, 740 264 C 980 250, 1190 276, 1400 260"/>
+    <path d="M0 280 C 270 264, 510 292, 760 278 C 1000 264, 1200 288, 1400 274"/>
+  </g>
+
+  <!-- stream -->
+  <path d="M-20 300 C 160 262, 300 268, 430 240 C 560 212, 700 220, 840 200 C 980 180, 1120 190, 1260 176 L1420 170"
+        stroke="url(#water)" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- riparian buffer trees along the stream -->
+  <g>
+    <g fill="#1d4a37" opacity=".92">
+      <ellipse cx="180" cy="268" rx="13" ry="17"/><ellipse cx="236" cy="260" rx="11" ry="15"/>
+      <ellipse cx="300" cy="258" rx="14" ry="18"/><ellipse cx="364" cy="248" rx="11" ry="14"/>
+      <ellipse cx="432" cy="236" rx="14" ry="18"/><ellipse cx="500" cy="228" rx="11" ry="15"/>
+      <ellipse cx="572" cy="220" rx="13" ry="17"/><ellipse cx="648" cy="212" rx="11" ry="14"/>
+      <ellipse cx="724" cy="206" rx="14" ry="18"/><ellipse cx="800" cy="198" rx="11" ry="15"/>
+      <ellipse cx="880" cy="192" rx="13" ry="17"/><ellipse cx="960" cy="186" rx="11" ry="14"/>
+      <ellipse cx="1044" cy="182" rx="14" ry="18"/><ellipse cx="1128" cy="176" rx="11" ry="15"/>
+      <ellipse cx="1216" cy="172" rx="13" ry="17"/><ellipse cx="1304" cy="168" rx="11" ry="14"/>
+    </g>
+    <g stroke="#143326" stroke-width="2.5" opacity=".8">
+      <path d="M180 282v-6"/><path d="M300 274v-6"/><path d="M432 252v-6"/>
+      <path d="M572 236v-6"/><path d="M724 222v-6"/><path d="M880 208v-6"/>
+      <path d="M1044 198v-6"/><path d="M1216 188v-6"/>
+    </g>
+  </g>
+
+  <!-- fence posts across the pasture -->
+  <g stroke="#2b3b33" stroke-opacity=".45" stroke-width="2">
+    <path d="M90 300v-22"/><path d="M150 297v-22"/><path d="M210 294v-21"/><path d="M270 291v-21"/>
+    <path d="M90 284h180" stroke-opacity=".3"/>
+  </g>
+</svg>

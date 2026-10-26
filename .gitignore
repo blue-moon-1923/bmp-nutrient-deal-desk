@@ -1,0 +1,21 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.tmp
+output/*.corrupt.json
+
+# data/ is deliberately NOT ignored. The county rate database ships with the
+# repo so the app runs from a fresh clone with no download step.
+
+# Runtime logs. These can contain practice names and quantities read out of a
+# real producer's conservation plan, which belongs to that producer and has no
+# business in a public repository. token_log.json is kept deliberately: it
+# holds token counts and county names only, and the report cites it.
+output/extraction_log.json
+output/repository.json
+output/*.corrupt.json
+
+# Local preview helper, not part of the submission
+.claude/

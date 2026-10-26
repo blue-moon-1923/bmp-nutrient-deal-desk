@@ -1,0 +1,8 @@
+banner.jpg
+  Source : Wikimedia Commons, "Riparian habitat on farm in washington co in.jpg"
+  Licence: Public domain
+  Changes: cropped to a banner band, slight desaturation and darkening so
+           overlaid text stays legible.
+  Why    : the frame shows pasture, perimeter fencing and a riparian forest
+           buffer along the treeline, which are three of the practices this
+           application screens.
